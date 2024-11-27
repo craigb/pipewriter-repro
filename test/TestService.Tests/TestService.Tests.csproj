@@ -21,4 +21,8 @@
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\TestService.Api\TestService.Api.csproj" />
+  </ItemGroup>
+
 </Project>
